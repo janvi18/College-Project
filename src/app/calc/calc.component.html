@@ -1,28 +1,41 @@
 <app-menu></app-menu>
-	<div class="main">
-		<div class="getInput">
+<div class="main">
+	<div class="getInput">
 
-			<h1>CALCULATOR</h1>
-			<hr color="black">
-			<br>
+		<h1>CALCULATOR</h1>
+		<hr color="black">
+		<br>
 
-			Enter Value A : <input type="number" [(ngModel)]="a" /> <br> <br>
-			Enter Value B : <input type="number" [(ngModel)]="b" /> <br><br>
+		Enter Value A : <input type="number" [(ngModel)]="a" /> <br> <br>
+		Enter Value B : <input type="number" [(ngModel)]="b" /> <br><br>
 
+		<label>
 			<input type="radio" name="cal" value="add" (click)="Addition()" />
-			<label for="add">Addition</label>
+			<img type="image" src="add.png" height="10px" width="10px" value="add" />
+			Addition
+		</label>
 
+		<label>
 			<input type="radio" name="cal" value="sub" (click)="Subtraction()" />
-			<label for="sub">Subtraction</label>
+			<img type="image" src="minus.png" height="10px" width="10px" value="sub" />
+			Subtraction
+		</label>
 
+		<label>
 			<input type="radio" name="cal" value="mul" (click)="Multiplication()" />
-			<label for="mul">Multiplication</label>
+			<img type="image" src="mul.png" height="10px" width="10px" value="mul" />
+			Multiplication
+		</label>
 
+		<label >
 			<input type="radio" name="cal" value="divi" (click)="Division()" />
-			<label for="div">Division</label>
-			<br><br><br>
-			<div class="getAns">
-				<b>Answer = {{c}}</b>
-			</div>
+			<img type="image" src="div.png" height="10px" width="10px" value="div" />
+			Division
+		</label>
+
+		<br><br><br>
+		<div class="getAns">
+			<b>Answer = {{c}}</b>
 		</div>
 	</div>
+</div>
