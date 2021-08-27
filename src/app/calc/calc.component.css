@@ -1,0 +1,40 @@
+.main{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgb(233, 139, 194),rgb(125, 155, 233),rgb(104, 207, 248));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    border: 8px solid;
+    border-color:rgb(0, 0, 0);
+
+}
+.h1{
+    margin: 0px;
+    background-color: rgb(46, 158, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.getInput{
+    margin: 0%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+
+}
+.getAns{
+    margin: 0%;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    width: fit-content;
+    top: 350px;
+
+}

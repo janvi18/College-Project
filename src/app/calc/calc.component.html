@@ -1,0 +1,28 @@
+<app-menu></app-menu>
+	<div class="main">
+		<div class="getInput">
+
+			<h1>CALCULATOR</h1>
+			<hr color="black">
+			<br>
+
+			Enter Value A : <input type="number" [(ngModel)]="a" /> <br> <br>
+			Enter Value B : <input type="number" [(ngModel)]="b" /> <br><br>
+
+			<input type="radio" name="cal" value="add" (click)="Addition()" />
+			<label for="add">Addition</label>
+
+			<input type="radio" name="cal" value="sub" (click)="Subtraction()" />
+			<label for="sub">Subtraction</label>
+
+			<input type="radio" name="cal" value="mul" (click)="Multiplication()" />
+			<label for="mul">Multiplication</label>
+
+			<input type="radio" name="cal" value="divi" (click)="Division()" />
+			<label for="div">Division</label>
+			<br><br><br>
+			<div class="getAns">
+				<b>Answer = {{c}}</b>
+			</div>
+		</div>
+	</div>
