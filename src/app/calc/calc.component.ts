@@ -21,28 +21,28 @@ export class CalcComponent implements OnInit {
     console.log("ngOnInit")
   }
 
-  Addition()
+  addition()
   {
     console.log("Addition() called...")
     console.log("a = >",this.a)
     console.log("b = >",this.b)
     this.c = this.a + this.b
   }
-  Subtraction()
+  subtraction()
   {
     console.log("Subtraction() called...")
     console.log("a = >",this.a)
     console.log("b = >",this.b)
     this.c = this.a - this.b
   }
-  Multiplication()
+  multiplication()
   {
     console.log("Multiplication() called...")
     console.log("a = >",this.a)
     console.log("b = >",this.b)
     this.c = this.a * this.b
   }
-  Division()
+  division()
   {
     console.log("Division() called...")
     console.log("a = >",this.a)

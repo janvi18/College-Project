@@ -1,3 +1,25 @@
-<a routerLink="Calc">calc</a>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="navbar-header">
+    <a class="navbar-brand" href=" ">Converter</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li><a routerLink="login">LOGIN</a></li>
+    <li><a routerLink="signup">SIGNUP</a></li>
+    <li><a routerLink="about">ABOUT</a></li>
+    <li><a routerLink="calc">CALCULATOR</a></li>
+    <li><a routerLink="currency">CURRENCY</a></li>
+    <li><a routerLink="unit">UNIT</a></li>
+    <li><a routerLink="logout">LOGOUT</a></li>
+
+  </ul>
+  <div class="searchbar">
+    <form class="navbar-form navbar-left">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+    </form>
+  </div>
+</nav>
 <router-outlet></router-outlet>

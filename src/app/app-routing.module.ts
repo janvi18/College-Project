@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CalcComponent } from './calc/calc.component';
 
 const routes: Routes = [
-  {path:"Calc", component:CalcComponent}
+  {path:"calc", component:CalcComponent},
 ];
 
 @NgModule({

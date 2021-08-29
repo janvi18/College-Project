@@ -1,8 +1,10 @@
-<app-menu></app-menu>
+
 <div class="main">
 	<div class="getInput">
 
-		<h1>CALCULATOR</h1>
+		<h1>
+			<b>CALCULATOR</b>
+		</h1>
 		<hr color="black">
 		<br>
 
@@ -10,25 +12,25 @@
 		Enter Value B : <input type="number" [(ngModel)]="b" /> <br><br>
 
 		<label>
-			<input type="radio" name="cal" value="add" (click)="Addition()" />
-			<img type="image" src="add.png" height="10px" width="10px" value="add" />
-			Addition
+			<input type="radio" value="addition" (click)="addition()" />
+			<img src="add.jpeg" height="20px" width="20px" value="addition" />
+	
 		</label>
 
 		<label>
-			<input type="radio" name="cal" value="sub" (click)="Subtraction()" />
+			<input type="radio" value="sub" (click)="subtraction()" />
 			<img type="image" src="minus.png" height="10px" width="10px" value="sub" />
 			Subtraction
 		</label>
 
 		<label>
-			<input type="radio" name="cal" value="mul" (click)="Multiplication()" />
+			<input type="radio" value="mul" (click)="multiplication()" />
 			<img type="image" src="mul.png" height="10px" width="10px" value="mul" />
 			Multiplication
 		</label>
 
 		<label >
-			<input type="radio" name="cal" value="divi" (click)="Division()" />
+			<input type="radio" value="divi" (click)="division()" />
 			<img type="image" src="div.png" height="10px" width="10px" value="div" />
 			Division
 		</label>
