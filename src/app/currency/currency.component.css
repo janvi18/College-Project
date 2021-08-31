@@ -1,0 +1,81 @@
+.body
+h1{
+    background: #8886f3;
+    border: 10px solid #000;
+	text-align: center;
+	font-size: 45px;
+	padding: 20px 1em;
+	font-weight: bold;
+	margin-left: 23%;
+	margin-right: 23%;
+	cursor: pointer;
+	font-family: Times New Roman;
+}
+
+marquee{
+    background: #cebd60;
+    border: 5px solid #000;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 6px;
+	margin: -23px;
+	margin-left: 23%;
+	margin-right: 23%;
+	cursor: pointer;
+}
+
+fieldset{
+	
+    width:50%;
+	margin: auto;
+	border: 25px solid #000;
+	text-align: center;
+	font-size: 35px;
+	font-family: lato,sans-serif;
+}
+
+input[type=number],[id]{
+    background: #00CC99;
+	border: 5px solid #000;
+	border-radius: 5px;
+	border-width: 4px;
+	color: #36454b;
+	font-size: 15px;
+	margin: 5px;
+	padding: 12px;
+	display: inline-block;
+}
+label{
+	font-weight:bold;
+	border: 5px solid #000;
+	 background: #00CC99;
+	font-size:30px;
+	font-family: Times New Roman;
+}
+p{font-weight:bold;
+background: #40be0e;
+}
+
+input[type=Convert]{
+    width: 95px;
+	height: 43px;
+	font-weight: bold;
+}
+
+input[type=button]{
+    width: 95px;
+	height: 43px;
+	font-weight: bold;
+}
+
+input[type=reset]{
+    width: 95px;
+	height: 43px;
+	font-weight: bold;
+}
+.header-style{
+
+    text-align: center;
+    border: 1px;
+    border-bottom: solid;
+}
