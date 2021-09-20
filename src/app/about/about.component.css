@@ -1,18 +1,31 @@
-h2{
-    font-family:monospace;
-    font-weight: bolder;
-    text-align: center;
+body
+{
+  margin: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(/assets/4.jpg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 500px;
+  border: 8px solid;
+  border-color:rgb(0, 0, 0);
 }
-.main{
-    text-align: left;
-    font-family: cursive;
-    background-image: url("9.jpeg");
-    color: white;
-    font-size: large;
+.cc
+{
+  text-align: left;
+  align-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.join{
-    text-align: center;
+.calc
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.web{
-    text-align: center;
+.part{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }

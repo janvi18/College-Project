@@ -1,0 +1,21 @@
+.main{
+    margin: 0%;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('/assets/3.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 420px;
+    background-repeat: no-repeat,repeat;
+    color: black;
+    border: 8px solid;
+    border-color:rgb(0, 0, 0);
+    
+}
+.part{
+    text-align: center;
+}
