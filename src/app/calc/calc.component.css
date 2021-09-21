@@ -1,15 +1,13 @@
 .main{
     margin: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: linear-gradient(rgb(233, 139, 194),rgb(125, 155, 233),rgb(104, 207, 248));
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 500px;
     height: 500px;
-    border: 8px solid;
-    border-color:rgb(0, 0, 0);
+    
 
 }
 .h1{

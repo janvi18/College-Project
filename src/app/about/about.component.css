@@ -1,16 +1,8 @@
-body
-{
+.body{
   margin: 0%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(/assets/4.jpg);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 500px;
-  height: 500px;
-  border: 8px solid;
-  border-color:rgb(0, 0, 0);
+
 }
 .cc
 {

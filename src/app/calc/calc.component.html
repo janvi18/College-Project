@@ -12,26 +12,23 @@
 		Enter Value B : <input type="number" [(ngModel)]="b" /> <br><br>
 
 		<label>
-			<input type="radio" value="addition" (click)="addition()" />
-			<img src="add.jpeg" height="20px" width="20px" value="addition" />
+			<input type="radio" value="addition" (click)="addition()" name="calc" />
+			Addition
 	
 		</label>
 
 		<label>
-			<input type="radio" value="sub" (click)="subtraction()" />
-			<img type="image" src="minus.png" height="10px" width="10px" value="sub" />
+			<input type="radio" value="sub" (click)="subtraction()" name="calc" />
 			Subtraction
 		</label>
 
 		<label>
-			<input type="radio" value="mul" (click)="multiplication()" />
-			<img type="image" src="mul.png" height="10px" width="10px" value="mul" />
+			<input type="radio" value="mul" (click)="multiplication()"  name="calc"/>
 			Multiplication
 		</label>
 
 		<label >
-			<input type="radio" value="divi" (click)="division()" />
-			<img type="image" src="div.png" height="10px" width="10px" value="div" />
+			<input type="radio" value="divi" (click)="division()" name="calc"/>
 			Division
 		</label>
 
