@@ -1,5 +1,12 @@
-h2{
-    text-align-last: center;
-    align-content: center;
-    background: rgb(219, 127, 127);
+.main{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(73, 135, 170);
 }
+marquee{ 
+    height: 43px;
+    font-size: 30px;
+    background: #ffc1cc;
+    color: #000080;
+ } 
+ 

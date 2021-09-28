@@ -1,19 +1,19 @@
 <div class="main">
-<h2>UNIT CONVERTER</h2>
-<hr color="black">
-<form>
-    <div class="gradient">
+    <h2>UNIT CONVERTER</h2>
+    <hr color="black">
+    <form>
         Value :<input type="number" name="value" [(ngModel)]="val" />
-    </div>
-    <div class="input">
-        <input type="radio" name="opt" value="m_cm" (click)="cm()">Millimeter To Centimeter :<br>
-        <input type="radio" name="opt" value="cm_m" (click)="m()">Centimeter To Meter :<br>
-        <input type="radio" name="opt" value="m_km" (click)="km()">Meter To Kilometer :<br>
-        <input type="radio" name="opt" value="i_f" (click)="feet()">Inch To Feet :<br>
-        <input type="radio" name="opt" value="f_y" (click)="yard()">Feet To Yard :<br>
-    </div>
+        <div class="input">
+            <input type="radio" name="opt" value="m_cm" (click)="cm()">Millimeter To Centimeter :<br>
+            <input type="radio" name="opt" value="cm_m" (click)="m()">Centimeter To Meter :<br>
+            <input type="radio" name="opt" value="m_km" (click)="km()">Meter To Kilometer :<br>
+            <input type="radio" name="opt" value="i_f" (click)="feet()">Inch To Feet :<br>
+            <input type="radio" name="opt" value="f_y" (click)="yard()">Feet To Yard :<br>
+        </div>
 
         <div class="ans">Answer :
-           <b>{{from}} {{to}} {{ans.toFixed(3)}} </b>
+            <b> {{ans.toFixed(3)}} </b>
         </div>
-</form>
+        <br>
+    </form>
+</div>

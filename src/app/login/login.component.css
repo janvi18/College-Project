@@ -1,20 +1,17 @@
 .main{
     margin: 0%;
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url('/assets/bg4.jpg');
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgb(236, 231, 162),rgb(185, 230, 212),rgb(53, 165, 245));
     background-size: cover;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 500px;
-    height: 420px;
-    background-repeat: no-repeat,repeat;
-    color: black;
+    height: 450px;
     border: 8px solid;
     border-color:rgb(0, 0, 0);
-    
+    font-size: 115%;
 }
 .part{
     text-align: center;

@@ -1,14 +1,14 @@
 .main{
     margin: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgb(251, 165, 95),rgb(248, 238, 238),rgb(238, 118, 81));
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 500px;
-    height: 500px;
-    
-
+    height: 470px;
+    font-size:large;
 }
 .h1{
     margin: 0px;
@@ -24,7 +24,6 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 90%;
-
 }
 
 .getAns{
@@ -33,6 +32,5 @@
     position:absolute;
     left: 40%;
     width:fit-content;
-    top: 350px;
-
+    top: 400px;
 }

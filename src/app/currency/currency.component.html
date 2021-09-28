@@ -1,60 +1,53 @@
-    <title>Currency Converter</title>
-<script>
+<div class="main">
+    <script>
 
-    function currencyConverter(valNum) {
+        function currencyConverter(valNum) {
 
-        if (converter.rupees.value <= 0)
-            window.alert("Enter Value Greaterthan 0");
-        else {
-            document.getElementById("dollar").value = (valNum / 74).toFixed(2);
-            document.getElementById("euro").value = (valNum / 87).toFixed(2);
-            document.getElementById("cdollar").value = (valNum / 59).toFixed(2);
-            document.getElementById("hkdollar").value = (valNum / 9.5).toFixed(2);
-            document.getElementById("mpeso").value = (valNum / 3.6).toFixed(2);
+            if (converter.rupees.value <= 0)
+                window.alert("Enter Value Greaterthan 0");
+            else {
+                document.getElementById("dollar").value = (valNum / 74).toFixed(2);
+                document.getElementById("euro").value = (valNum / 87).toFixed(2);
+                document.getElementById("cdollar").value = (valNum / 59).toFixed(2);
+                document.getElementById("hkdollar").value = (valNum / 9.5).toFixed(2);
+                document.getElementById("mpeso").value = (valNum / 3.6).toFixed(2);
+            }
         }
-    }
-</script>
-
-<body>
-
+    </script>
     <h1 class="header-style">Currency Converter</h1>
-
-    <marquee>Welcome to the Online Currency Converter</marquee>
-    <br><br>
 
     <form name="converter">
 
 
         <fieldset>
 
-            <label>IND Currency(Rupees): </label>
+            <label> &nbsp; IND Currency ( Rupees ) : </label>
 
             <input type="number" [(ngModel)]="inputNumber" name="rupees" required><br><br>
 
-            <label>Dollar(American): </label>
+            <label>&nbsp;Dollar ( American ) : </label>
 
             <input id="dollar" [(ngModel)]="objConverter.Dollar" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>Euro(Spein): </label>
+            <label>&nbsp;Euro ( Spain ) : </label>
 
             <input id="euro" [(ngModel)]="objConverter.Euro" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>Canadian Dollar(Canada): </label>
+            <label>&nbsp;Canadian Dollar ( Canada ) : </label>
 
             <input id="cdollar" [(ngModel)]="objConverter.CanadianDo" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>Hongkong Dollar(Hongkong): </label>
+            <label>&nbsp;Hongkong Dollar ( Hongkong ) : </label>
 
             <input id="hkdollar" [(ngModel)]="objConverter.HongkongDo" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>Peso(Mexico): </label>
+            <label>&nbsp;Peso ( Mexico ) : </label>
 
             <input id="mpeso" [(ngModel)]="objConverter.Peso" [ngModelOptions]="{standalone: true}"><br><br>
             <input type="button" value="Convert" (click)="currencyConverter()">
-
+            &nbsp;&nbsp;
             <input type="reset" value="Reset Form">
-
-            <p>You Can Press Reset Button For Reseting The Form</p>
-
+            <br>
         </fieldset>
     </form>
+</div>
