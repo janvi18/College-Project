@@ -21,27 +21,27 @@
 
         <fieldset>
 
-            <label> &nbsp; IND Currency ( Rupees ) : </label>
+            <label> &nbsp; IND Currency ( Rupees ) : &nbsp; </label>
 
             <input type="number" [(ngModel)]="inputNumber" name="rupees" required><br><br>
 
-            <label>&nbsp;Dollar ( American ) : </label>
+            <label>&nbsp;Dollar ( American ) : &nbsp; </label>
 
             <input id="dollar" [(ngModel)]="objConverter.Dollar" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>&nbsp;Euro ( Spain ) : </label>
+            <label>&nbsp;Euro ( Spain ) :&nbsp; </label>
 
             <input id="euro" [(ngModel)]="objConverter.Euro" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>&nbsp;Canadian Dollar ( Canada ) : </label>
+            <label>&nbsp;Canadian Dollar ( Canada ) : &nbsp;</label>
 
             <input id="cdollar" [(ngModel)]="objConverter.CanadianDo" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>&nbsp;Hongkong Dollar ( Hongkong ) : </label>
+            <label>&nbsp;Hongkong Dollar ( Hongkong ) :&nbsp; </label>
 
             <input id="hkdollar" [(ngModel)]="objConverter.HongkongDo" [ngModelOptions]="{standalone: true}"><br><br>
 
-            <label>&nbsp;Peso ( Mexico ) : </label>
+            <label>&nbsp;Peso ( Mexico ) :&nbsp; </label>
 
             <input id="mpeso" [(ngModel)]="objConverter.Peso" [ngModelOptions]="{standalone: true}"><br><br>
             <input type="button" value="Convert" (click)="currencyConverter()">

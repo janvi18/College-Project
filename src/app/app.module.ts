@@ -4,10 +4,8 @@ import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms'; 
 import { ReactiveFormsModule } from '@angular/forms';
-import { ToastrModule } from 'ngx-toastr';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { AboutComponent } from './about/about.component';
@@ -33,8 +31,6 @@ import { CurrencyComponent } from './currency/currency.component';
     CommonModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule, 
-    ToastrModule.forRoot(),
     ReactiveFormsModule
   ],
   providers: [],
